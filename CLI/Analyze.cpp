@@ -210,7 +210,7 @@ struct CliConfigResolver : Luau::ConfigResolver
     }
 };
 
-int main(int argc, char** argv)
+int analyzeMain(int argc, char** argv)
 {
     Luau::assertHandler() = assertionHandler;
 

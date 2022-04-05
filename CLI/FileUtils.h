@@ -11,6 +11,7 @@ std::optional<std::string> readStdin();
 
 bool isDirectory(const std::string& path);
 bool traverseDirectory(const std::string& path, const std::function<void(const std::string& name)>& callback);
+bool foo();
 
 std::string joinPaths(const std::string& lhs, const std::string& rhs);
 std::optional<std::string> getParentPath(const std::string& path);

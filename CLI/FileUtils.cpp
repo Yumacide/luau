@@ -221,6 +221,10 @@ bool isDirectory(const std::string& path)
 #endif
 }
 
+bool foo() {
+    return true;
+}
+
 std::string joinPaths(const std::string& lhs, const std::string& rhs)
 {
     std::string result = lhs;

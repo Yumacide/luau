@@ -20,7 +20,7 @@ static int assertionHandler(const char* expr, const char* file, int line, const 
     return 1;
 }
 
-int main(int argc, char** argv)
+int astMain(int argc, char** argv)
 {
     Luau::assertHandler() = assertionHandler;
 
